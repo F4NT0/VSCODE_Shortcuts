@@ -15,22 +15,23 @@ Cole o seguinte JSON:
 
 ```json
 {
-    "workbench.colorTheme": "Bearded Theme Vivid Black",
+    "editor.inlineSuggest.enabled": true,
     "files.autoSave": "afterDelay",
+    "git.openRepositoryInParentFolders": "never",
+    "git.confirmSync": false,
+    "accessibility.dimUnfocused.opacity": 1,
+    "git.enableSmartCommit": true,
+    "workbench.colorTheme": "Bearded Theme Monokai Black",
     "workbench.iconTheme": "bearded-icons",
-    "editor.minimap.enabled": false,
-    "editor.fontFamily": "JetBrains mono",
+    "editor.fontFamily": "JetBrains Mono",
+    "editor.fontSize": 13,
     "editor.fontLigatures": true,
-    "editor.fontSize": 14,
-    "workbench.startupEditor": "newUntitledFile",
-    "editor.renderLineHighlight": "gutter",
-    "workbench.editor.labelFormat": "short",
-    "explorer.compactFolders": false,
-    "editor.semanticHighlighting.enabled": false,
-    "breadcrumbs.enabled": false,
+    "editor.minimap.enabled": false,
+    "security.workspace.trust.untrustedFiles": "open",
     "workbench.activityBar.location": "hidden",
-    "editor.scrollbar.horizontal": "hidden",
-    "editor.scrollbar.vertical": "hidden",
+    "explorer.compactFolders": false,
+    "workbench.startupEditor": "newUntitledFile",
+    "window.commandCenter": false,
 }
 ```
 
